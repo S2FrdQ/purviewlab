@@ -186,7 +186,7 @@ To make the secret accessible to Microsoft Purview, we must first establish a co
 
     ![ALT](../images/module02/02.43-register-sqldb.png)
 
-3. Select the **Azure subscritpion**, **Server name**, and **Collection**. Click **Register**.
+3. Select the **Azure subscription**, **Server name**, and **Collection**. Click **Register**.
 
     ![ALT](../images/module02/02.44-register-azuresql.png)
 

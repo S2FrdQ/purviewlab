@@ -79,7 +79,7 @@
       "type": "Microsoft.Storage/storageAccounts",
       "apiVersion": "2021-04-01",
       "name": "[format('pvlab{0}adls', variables('randomString'))]",
-      "location": "East US",
+      "location": "[variables('location')]",
       "kind": "StorageV2",
       "sku": {
         "name": "Standard_LRS"
@@ -105,7 +105,7 @@
       "type": "Microsoft.Sql/servers/databases",
       "apiVersion": "2021-02-01-preview",
       "name": "[format('{0}/{1}', format('pvlab-{0}-sqlsvr', variables('randomString')), format('pvlab-{0}-sqldb', variables('randomString')))]",
-      "location": "East US",
+      "location": "[variables('location')]",
       "sku": {
         "name": "GP_S_Gen5",
         "tier": "GeneralPurpose",
